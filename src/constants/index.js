@@ -274,7 +274,7 @@ export const eduData = [
     degree: "Bachelor's in Computer Science",
     date: "2019 - 2023", // Adjusted estimate; feel free to correct
     description: "Graduated with 80% distinction. Built a strong foundation in computer science principles, database management, and software engineering.",
-    skills: ["Data Structures", "OOP", "Database Management"],
+    skills: ["Data Structures", "Object Oriented Programming", "Database Management"],
   },
 ];
 

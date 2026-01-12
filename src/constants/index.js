@@ -95,7 +95,7 @@ export const navLinks = [
     },
     {
         name: "Education",
-        link: "education",
+        link: "#education",
 
     },
     {
@@ -296,22 +296,22 @@ export const expLogos = [
 export const socialImgs = [
   {
     name: "insta",
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/namte1738/",
     imgPath: "/images/insta.png",
   },
   {
     name: "fb",
-    url: "https://www.facebook.com/",
+    url: "https://www.facebook.com/tenam.surkhang/",
     imgPath: "/images/fb.png",
   },
   {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
+    name: "Github",
+    url: "https://github.com/namte24",
+    imgPath: "/images/github.png",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "www.linkedin.com/in/tenzing-bhutia-a67b3b22a",
     imgPath: "/images/linkedin.png",
   },
 ];

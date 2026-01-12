@@ -100,7 +100,7 @@ export const navLinks = [
     },
     {
         name: "Skills",
-        link: "#skils"
+        link: "#skills"
     }
 ]
 
@@ -208,9 +208,66 @@ export const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Git/ GitHub",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
+  },
+];
+
+export const expCards = [
+  {
+    review:
+      "Demonstrated strong backend engineering skills by optimizing database performance and building secure booking infrastructure at Netsepq Solutions.",
+    imgPath: "/images/logos/netspeq.jpeg", 
+    logoPath: "/images/logos/netspeq.jpeg", 
+    title: "Web Developer - Netspeq Solutions",
+    date: "Jan 2023 - July 2023", 
+    responsibilities: [
+      "Built a clinic booking system (ASP.NET, SQL) implementing slot search, booking logic, role-based access control, and audit logs.",
+      "Normalized database schema and added indexes, cutting slow query execution time from multi-second to sub-300ms.",
+      "Exposed REST endpoints with validation/authentication and improved error logging to speed up incident triage.",
+    ],
+  },
+  {
+    review:
+      "Focused on accessibility and user-centric design to streamline community reporting tools for the Brantford Police Service.",
+    imgPath: "/images/logos/brantfordPolice.png", 
+    logoPath: "/images/logos/brantfordPolice.png", 
+    title: "UI/UX Developer - Brantford Police Service",
+    date: "Jan 2025 - May 2025 ", 
+    responsibilities: [
+      "Produced mobile-first wireframes and clickable prototypes to simplify incident reporting and resource flows.",
+      "Applied accessibility basics (contrast, tap targets, hierarchy) to ensure inclusivity for all users.",
+      "Validated designs with hallway testing to ensure intuitive user navigation.",
+    ],
+  },
+  {
+    review:
+      "Brought technical gameplay mechanics to life in Unity, ensuring an engaging experience for the target demographic at Enactus Laurier.",
+    imgPath: "/images/logos/enactus.jpeg", 
+    logoPath: "/images/logos/enactus.jpeg", 
+    title: "Game Developer - Enactus Laurier",
+    date: "Sep 2025 - Dec 2025", 
+    responsibilities: [
+      "Engineered core gameplay mechanics in Unity (C#), including third-person camera tracking and rigid-body player movement.",
+      "Implemented interaction systems for NPCs and objects to enhance game immersion.",
+      "Delivered a playable 'grey box' prototype, implementing physics-based logic and UI triggers for the target demographic (ages 8–13).",
+    ],
+  },
+];
+
+export const expLogos = [
+  {
+    name: "logo1",
+    imgPath: "/images/logos/netspeq.jpeg",
+  },
+  {
+    name: "logo2",
+    imgPath: "/images/logos.brantfordPolice.png",
+  },
+  {
+    name: "logo3",
+    imgPath: "/images/logos/enactus.jpeg",
   },
 ];

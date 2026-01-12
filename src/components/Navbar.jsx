@@ -7,7 +7,7 @@ const Navbar = () => {
     useEffect(() =>{
         const handleScroll = () => {
             const isScrolled = window.scrollY > 10;
-            setScrolled(true)
+            setScrolled(isScrolled)
         }
         window.addEventListener('scroll', handleScroll)
 
@@ -23,7 +23,7 @@ const Navbar = () => {
             </a>
             <nav className='desktop'>
                 <ul>
-                    {navLinks.map(({link, name}) => (
+                    {navLinks?.map(({link, name}) => (
                         <li key={name} className="group">
                             <a href={link}>
                                 <span>{name}</span>

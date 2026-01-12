@@ -257,6 +257,27 @@ export const expCards = [
   },
 ];
 
+export const eduData = [
+  {
+    id: 1,
+    institution: "Wilfrid Laurier University",
+    logo: "/images/logos/wlu.jpg", // Make sure to add this image to your public folder
+    degree: "Master's in Applied Computing",
+    date: "Sep 2024 - Dec 2025",
+    description: "Achieved a GPA of 3.8. Specialized in advanced software development methodologies, machine learning, and distributed systems.",
+    skills: ["Applied Computing", "Distributed Systems", "Advanced Algorithms"],
+  },
+  {
+    id: 2,
+    institution: "Sikkim Manipal Institute of Technology",
+    logo: "/images/logos/smit.png", // Make sure to add this image to your public folder
+    degree: "Bachelor's in Computer Science",
+    date: "2019 - 2023", // Adjusted estimate; feel free to correct
+    description: "Graduated with 80% distinction. Built a strong foundation in computer science principles, database management, and software engineering.",
+    skills: ["Data Structures", "OOP", "Database Management"],
+  },
+];
+
 export const expLogos = [
   {
     name: "logo1",

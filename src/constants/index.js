@@ -314,4 +314,4 @@ export const socialImgs = [
     url: "www.linkedin.com/in/tenzing-bhutia-a67b3b22a",
     imgPath: "/images/linkedin.png",
   },
-];
+]
